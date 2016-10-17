@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/ivBackdrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="@dimen/landscape_backdrop_margin_bottom"
+            android:layout_marginLeft="@dimen/landscape_backdrop_margin_left"
+            android:layout_marginTop="@dimen/landscape_backdrop_margin_top"
+            android:minHeight="@dimen/landscape_backdrop_min_height"
+            android:scaleType="fitXY"
+            tools:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:elevation="@dimen/play_button_elevation"
+            android:src="@drawable/play_button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlMovieTitleOverview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvPopularMovieTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/landscape_title_margin"
+            android:textSize="@dimen/landscape_title_text_size"
+            android:textStyle="bold"
+            tools:text="my movie title" />
+
+        <TextView
+            android:id="@+id/tvPopularMovieOverview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPopularMovieTitle"
+            android:layout_margin="@dimen/landscape_title_margin"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:textSize="@dimen/landscape_overview_text_size"
+            tools:text="movie title description ajdshudhajsbdsjdgsfsbdbcdhc" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="detail_backdrop_image_height">180dp</dimen>
+    <dimen name="detail_backdrop_margin_bottom">10dp</dimen>
+    <dimen name="detail_play_button_padding">48dp</dimen>
+    <dimen name="detail_play_button_elevation">10dp</dimen>
+    <dimen name="detail_title_margin">4dp</dimen>
+    <dimen name="detail_title_text_size">24sp</dimen>
+    <dimen name="detail_rating_bar_padding_top">10dp</dimen>
+    <dimen name="poster_padding">16dp</dimen>
+    <dimen name="title_margin">8dp</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="overview_text_size">16sp</dimen>
+    <dimen name="backdrop_min_height">200dp</dimen>
+    <dimen name="backdrop_margin">4dp</dimen>
+    <dimen name="play_button_elevation">10dp</dimen>
+    <dimen name="landscape_backdrop_margin_bottom">16dp</dimen>
+    <dimen name="landscape_backdrop_margin_top">16dp</dimen>
+    <dimen name="landscape_backdrop_margin_left">8dp</dimen>
+    <dimen name="landscape_backdrop_min_height">200dp</dimen>
+    <dimen name="landscape_title_margin">8dp</dimen>
+    <dimen name="landscape_title_text_size">18sp</dimen>
+    <dimen name="landscape_overview_text_size">16sp</dimen>
+</resources>
